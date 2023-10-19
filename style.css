@@ -1,0 +1,43 @@
+#startBtn {
+  display: inline-block;
+}
+span .mine1 {
+  width: 25px;
+  height: auto;
+}
+span {
+  display: block;
+}
+td {
+  width: 30px;
+  height: 30px;
+}
+td.empty {
+  cursor: pointer;
+  color: #1eb1f5;
+  /* font-size: 0; */
+  cursor: pointer;
+}
+td.mine {
+  cursor: pointer;
+  color: rgb(255, 136, 0);
+  /* color: #f0f0f0; */
+  
+  /* font-size: 0; */
+  cursor: pointer;
+  /* background-image: url("./mineRed.png"); */
+  background-size: cover;
+}
+.mineExplo {
+   background-image: url("./mineRed.png");
+   background-size: cover;
+}
+.cellNum{
+  background-color: rgba(106, 243, 186, 0.459);
+  color: #049244;
+  text-align: center;
+}
+#area {
+  display: inline-block;
+  background-color: #f0f0f036;
+}
